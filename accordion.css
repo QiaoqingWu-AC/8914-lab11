@@ -36,8 +36,10 @@ button.accordion.is-open:after {
   content: "\f151";
 }
 
+/* Fix: Add "button.accordion:focus" to give the button a visible indicator */
 button.accordion:hover,
-button.accordion.is-open {
+button.accordion.is-open,
+button.accordion:focus {
   background-color: #ddd;
 }
 
